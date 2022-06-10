@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 //Test MongoDB
-mongoose.connect("mongodb+srv://USUARIO:CONTRASEÑA@cluster0.h31hc.mongodb.net/BD?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://api:asdasdasdasdsa@cluster0.h31hc.mongodb.net/BD?retryWrites=true&w=majority")
   .then(() => console.log("Conexión realizada a MongoDBAtlas"))
   .catch((error) => console.log(error))
 
